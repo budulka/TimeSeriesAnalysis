@@ -1,0 +1,31 @@
+.venv
+venv311
+archive.zip
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.webp
+
+# Exception: lab7 architecture diagrams
+!lab7/*_architecture.png
+
+# Documents
+*.doc
+*.docx
+*.pdf
+
+# Data
+*.csv
+
+# Caches
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.py[cod]
